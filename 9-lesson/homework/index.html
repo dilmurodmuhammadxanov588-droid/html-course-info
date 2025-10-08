@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            text-decoration: none;
+            list-style: none;
+
+        }
+        body{
+            background-color: blue;
+        }
+        header{
+            width: 100%;
+            height: 60px;
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            padding: 0 100px;
+            background-color: blue;
+        }
+        nav ul{
+            display: flex;
+            align-items: center;
+            gap: 45px;
+        }
+        .logo{
+            width: 70px;
+            height: 50px;
+            display: flex;
+            align-items: center;
+            font-size:45px;
+            font-family: monospace;
+        }
+        ul button{
+            width: 65px;
+            height: 35px;
+            background-color: azure;
+            color: blue;
+            border-radius: 5px;
+            border: none;
+            font-family: monospace;
+        }
+        .banner{
+            
+            width: 100%;
+            height: 90vh;
+            display: flex;
+            align-items: center;
+            padding: 0 100px;
+            gap: 45px
+        }
+        .text_h1{
+            font-size: 45px;
+            font-family: monospace;
+            margin-bottom: 30px;
+            color: white;
+        }
+        .text_p{
+            font-size: 18px;
+            font-family: monospace;
+            margin-bottom: 25px;
+            
+        }
+        .btn{
+            width: 150px;
+            height: 35px;
+            border: 1px solid blue;
+            border-radius: 15px;
+            background-color: white;
+            color: blue;
+            font-family: monospace;
+        }
+        .banner_btn{
+            width: 150px;
+            height: 35px;
+            border: 1px solid white;
+            border-radius: 15px;
+            background-color: transparent;
+            color: white;
+
+        }
+        .banner_img{
+            width: 800px;
+            height: 600px;
+            padding:0 100px ;
+        }
+        
+
+
+    </style>
+</head>
+<body>
+    <header>
+        <a  class="logo" href="/">kompyuter</a>
+        <nav>
+            <ul>
+                <li>
+                    <a href="/">Home</a>
+                </li>
+                <li>
+                    <a href="/">Services</a>
+                </li>
+                <li>
+                    <a href="/">Portfolio</a>
+                </li>
+                <li>
+                    <a href="/">Pricing</a>
+                </li>
+                <li>
+                    <a href="/">About</a>
+                </li>
+                <li>
+                    <a href="/">Team</a>
+                </li>
+                <li>
+                    <a href="/">Contact</a>
+                </li>
+                <button><a href="/index.html">Download</a></button>
+            </ul>
+        </nav>
+
+    </header>
+    <div class="banner">
+        <div>
+        <h1 class="text_h1">Business is now digital</h1>
+        <p class="text_p">Lorem ipsum dolor sit amet consectetur adipisicing elit. Beatae aliquid architecto quibusdam velit corporis itaque?</p>
+        <!-- </div>  -->
+        <!-- <div>       -->
+            <button class="btn"><a href="/">Get Started</a></button>
+            <button class="banner_btn"><a href="/">Download</a></button>       
+        </div>
+        <div>
+            <img class="banner_img" src="https://png.pngtree.com/png-clipart/20220111/original/pngtree-there-is-a-lamp-and-a-computer-on-the-work-desk-png-image_7080298.png" alt="banner_pictures">
+        </div>
+
+    </div>
+</body>
+</html>

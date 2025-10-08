@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            text-decoration: none;
+            list-style: none;
+            font-family: monospace;
+        }
+        header{
+            width: 100%;
+            height: 60px;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            padding: 0 150px;
+            
+
+        }
+        .logo{
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            gap: 15px;
+            
+        }
+        nav ul{
+            display: flex;
+            gap: 50px;
+            justify-content: space-between;
+            align-items: center;
+
+        }
+        .text_h1{
+            font-size:50px ;
+            margin-top: 50px;
+            margin-bottom: 30px;
+            /* padding: 0 150px; */
+        }
+        .text_p{
+            font-size: 18px;
+            margin-bottom: 35px;
+            /* padding: 0 150px; */
+        }
+        .banner{
+            display: flex;
+            padding: 0 150px;
+        }
+        .banner_btn{
+            width: 130px;
+            height: 40px;
+            background-color: orange;
+            border-radius: 5px;
+            color: white;
+            border: none;
+            /* padding: 0 150px; */
+        }
+        .header_btn{
+            width: 80px;
+            height: 35px;
+            background-color: orange;
+            color: white;
+            border: none;
+            border-radius: 5px;
+        }
+
+    </style>
+</head>
+<body>
+    <header>
+
+        <div class="logo">
+            <img src="./images/Logo.png" alt="Logo">
+            <a href="/index.html">DESIGNZCY</a>
+            
+    </div>
+    <nav>
+        <ul>
+            <li>
+                <a href="/">Home</a>
+            </li>
+            <li>
+                <a href="/index.html">Service</a>
+        </li>
+        <li>
+            <a href="\">Portfolio</a>
+        </li>
+        <li>
+            <a href="\">Blog</a>
+        </li>
+    </ul>
+    </nav>
+    <button class="header_btn"><a href="/index.html"></a>contact us</button>
+</header>
+<div class="banner">
+    <div>
+        <h1 class="text_h1">Smart Web Design Agency</h1>
+        <p class="text_p">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Exercitationem ipsum magnam natus vel quo laboriosam hic obcaecati sed veritatis voluptatum!</p>
+        <button class="banner_btn">
+            <a href="/index.html">free consultion</a>
+        </button>
+    </div>
+    <div class="banner_img">
+        <img src="./images/social-communication-3654546-3049735.png" alt="banner_img">
+    </div>
+</div>
+</body>
+</html>
